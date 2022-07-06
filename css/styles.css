@@ -4153,6 +4153,7 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .navbar-brand {
+  background-image: url('assets/img/text-1657106268898.png');
   padding-top: 0.3125rem;
   opacity: 0.5;
   padding-bottom: 0.3125rem;
