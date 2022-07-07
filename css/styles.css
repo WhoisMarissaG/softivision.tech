@@ -11606,6 +11606,7 @@ body {
 
 .template-section {
   padding: 10rem 0;
+  background-color: black;
 }
 .template-section .template-text {
   padding: 2rem;
