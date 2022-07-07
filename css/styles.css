@@ -602,9 +602,8 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.img-logo {
+  height: 50px;
 }
 
 .img-thumbnail {
