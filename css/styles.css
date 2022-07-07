@@ -11614,7 +11614,7 @@ body {
   background: #000000 !important;
 }
 .about-section p {
-  margin-bottom: 5rem;
+  padding: 5rem;
 }
 
 .projects-section {
