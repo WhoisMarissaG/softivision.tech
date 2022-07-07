@@ -603,7 +603,7 @@ progress {
 }
 
 .img-logo {
-  
+  opacity: 0.5;
 }
 
 .img-thumbnail {
