@@ -4154,7 +4154,7 @@ textarea.form-control-lg {
 }
 .navbar-brand {
   background-image: url('assets/img/text-1657106268898.png');
-  padding-top: 0.3125rem;
+  padding-top: 0.3125rem;s
   opacity: 0.5;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -11596,42 +11596,42 @@ body {
   }
 }
 
-.about-section {
+.software-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
-.about-section p {
+.software-section p {
   margin-bottom: 5rem;
 }
 
-.projects-section {
+.template-section {
   padding: 10rem 0;
 }
-.projects-section .featured-text {
+.template-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .template-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.projects-section .project-text {
+.template-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .template-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .template-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
   }
 }
 
-.signup-section {
+.ai-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
@@ -11639,7 +11639,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-.signup-section .form-signup input {
+.ai-section {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -11650,28 +11650,28 @@ body {
   border: 0;
 }
 
-.contact-section {
+.ai-section {
   padding-top: 5rem;
 }
-.contact-section .card {
+.ai-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
 }
-.contact-section .card h4, .contact-section .card .h4 {
+.ai-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-.contact-section .card hr {
+.ai-section .card hr {
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
 }
-.contact-section .social {
+.ai-section .social {
   margin-top: 5rem;
 }
-.contact-section .social a {
+.ai-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -11680,10 +11680,10 @@ body {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
-.contact-section .social a:hover {
+.ai-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.contact-section .social a:active {
+.ai-section .social a:active {
   color: #fff;
 }
 
