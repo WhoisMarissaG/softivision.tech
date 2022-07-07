@@ -11607,24 +11607,24 @@ body {
 .template-section {
   padding: 10rem 0;
 }
-.template-section .featured-text {
+.template-section .template-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .template-section .featured-text {
+  .template-section .template-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.template-section .project-text {
+.template-section .template-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .template-section .project-text {
+  .template-section .template-text {
     padding: 5rem;
   }
-  .template-section .project-text hr {
+  .template-section .template-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
@@ -11633,58 +11633,20 @@ body {
 
 .ai-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
-.ai-section {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
+  color: white;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-}
-
-.ai-section {
-  padding-top: 5rem;
-}
-.ai-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
-}
-.ai-section .card h4, .contact-section .card .h4 {
-  font-size: 0.8rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-}
-.ai-section .card hr {
-  border-color: #64a19d;
-  border-width: 0.25rem;
-  width: 3rem;
-}
-.ai-section .social {
-  margin-top: 5rem;
-}
-.ai-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
-}
-.ai-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-.ai-section .social a:active {
-  color: #fff;
 }
 
 .footer {
