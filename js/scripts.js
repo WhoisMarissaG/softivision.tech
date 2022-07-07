@@ -22,7 +22,13 @@ window.addEventListener('DOMContentLoaded', event => {
         }
 
     };
-
+    
+    $(function() {
+    if ($.browser.webkit) {
+        $("body").css("background", "#000000");
+    }
+    });
+    
     // Shrink the navbar 
     navbarShrink();
 
