@@ -11605,7 +11605,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background-color: Black;
+  background-color: Black !important;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11613,7 +11613,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
-  background-color: Black;
+  background-color: Black !important;
 }
 .projects-section .featured-text {
   padding: 2rem;
