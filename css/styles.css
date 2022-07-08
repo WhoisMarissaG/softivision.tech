@@ -11596,7 +11596,7 @@ body {
 
 .templates-section {
   padding-top: 10rem;
-  background: #000000 !important;
+  background-color: var(--bs-black-rgb);
 }
 .templates-section p {
   padding: 5rem;
@@ -11604,7 +11604,7 @@ body {
 
 .software-section {
   padding: 10rem 0;
-  background: #000000 !important;
+  background-color: var(--bs-black-rgb);
 }
 .software-section .featured-text {
   padding: 2rem;
@@ -11632,11 +11632,7 @@ body {
 
 .AI-section {
   padding: 10rem 0;
-  background-color: Black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background-color: var(--bs-black-rgb);
 }
 .AI-section {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -11651,7 +11647,7 @@ body {
 
 .bored-section {
   padding-top: 10rem;
-  background: #000000 !important;
+  background-color: var(--bs-black-rgb);
 }
 .bored-section p {
   padding: 5rem;
