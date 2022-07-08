@@ -11615,15 +11615,15 @@ body {
     border-left: 0.5rem solid #64a19d;
   }
 }
-.software-section .project-text {
+.software-section .software-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .software-section .project-text {
+  .software-section .software-text {
     padding: 5rem;
   }
-  .software-section .project-text hr {
+  .software-section .software-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
