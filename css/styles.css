@@ -11602,46 +11602,20 @@ body {
 }
 
 .software-section {
-  padding: 10rem 0;
+  padding: 10rem;
   background-color: #000000 !important;
 }
-.software-section .featured-text {
-  padding: 2rem;
-}
-@media (min-width: 992px) {
-  .software-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
-  }
-}
-.software-section .software-text {
-  padding: 3rem;
-  font-size: 90%;
-}
-@media (min-width: 992px) {
-  .software-section .software-text {
-    padding: 5rem;
-  }
-  .software-section .software-text hr {
-    border-color: #64a19d;
-    border-width: 0.25rem;
-    width: 30%;
-  }
+.software-section p {
+  padding: 5rem;
 }
 
 .AI-section {
-  padding: 10rem 0;
+  padding: 10rem;
   background-color: #000000 !important;
 }
-.AI-section {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
+
+.AI-section p {
+  padding: 5rem;
 }
 
 .bored-section {
@@ -11653,5 +11627,5 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 5rem;
 }
