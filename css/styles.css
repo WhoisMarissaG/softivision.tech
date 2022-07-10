@@ -11595,7 +11595,7 @@ body {
 
 .templates-section {
   padding-top: 10rem;
-  background-color: var(--bs-black-rgb);
+  background-color: #000000 !important;
 }
 .templates-section p {
   padding: 5rem;
