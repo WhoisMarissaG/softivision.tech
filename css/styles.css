@@ -11603,7 +11603,7 @@ body {
 
 .software-section {
   padding: 10rem 0;
-  background-color: var(--bs-black-rgb);
+  background-color: #000000 !important;
 }
 .software-section .featured-text {
   padding: 2rem;
@@ -11631,7 +11631,7 @@ body {
 
 .AI-section {
   padding: 10rem 0;
-  background-color: var(--bs-black-rgb);
+  background-color: #000000 !important;
 }
 .AI-section {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -11646,7 +11646,7 @@ body {
 
 .bored-section {
   padding-top: 10rem;
-  background-color: var(--bs-black-rgb);
+  background-color: #000000 !important;
 }
 .bored-section p {
   padding: 5rem;
