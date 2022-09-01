@@ -1,27 +1,69 @@
-<html>
-  <head>
-    <title>Softivision</title>
-    
-    <link rel="stylesheet" href="/css/styles.css"/>
-  </head>
+<body class="loading">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <body>
-    <div class="layout">
-  <div class="section-stick">
-    <div class="stick active"></div>
-  </div>
-  <section class="s1">
-    <div class="home">
-      <span>Slider Scroll Example</span>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M5 6l5 5l5-5l2 1l-7 7l-7-7z" fill="#fff"/><rect x="0" y="0" width="20" height="20" fill="rgba(0, 0, 0, 0)" /></svg>
-    </div>
-  </section>
-  <section class="s2">Section Two</section>
-  <section class="s3">Section Three</section>
-  <section class="s4">Section Four</section>
-  <section class="s5">Section Five</section>
-</div>
-    
-    <script src="/js/scripts.js"></script>
-  </body>
-</html>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+</head>
+ 
+	<header>
+		<div class="inner">
+			<div class="logo"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/wwf-logo.png"></div>
+			<div class="burger"></div>
+			<nav>
+				<a class="active" href="#">HOME</a>
+				<a href="#">CONTACT US</a>
+			</nav>
+			<a href="#" class="donate-link">BUY A COFFEE</a>
+		</div>
+	</header>
+
+ 
+	<main>
+		<div id="slider">
+			<div class="slider-inner">
+				<div id="slider-content">
+					<div class="meta">Home</div>
+					<h2 id="slide-title">TEMPLATES</h2>
+					<span data-slide-title="1">SOFTWARE<br></span>
+					<span data-slide-title="2">AI<br></span>
+					<span data-slide-title="3">BORED<br></span>
+          <span data-slide-title="4">BOOKS<br></span>
+          
+					<div class="meta">EXPLORE</div>
+          
+					<div id="slide-status">Free and Paid Templates</div>
+					<span data-slide-status="1">Free and Paid Software</span>
+					<span data-slide-status="2">Free AI Tools</span>
+					<span data-slide-status="3">Free</span>
+					<span data-slide-status="4">Free and Paid Books</span>
+				</div>
+			</div>
+
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/leopard2.jpg" />
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/lion2.jpg" />
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/tiger2.jpg" />
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/bear2.jpg" />
+
+			<div id="pagination">
+				<button class="active" data-slide="0"></button>
+				<button data-slide="1"></button>
+				<button data-slide="2"></button>
+				<button data-slide="3"></button>
+        <button data-slide="4"></button>
+			</div>
+
+		</div>
+	</main>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40525870-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40525870-5');
+</script>
+
+	</body>
