@@ -231,12 +231,12 @@ header .inner {
 }
 header .logo {
   display: block;
-  height: 50px;
+  height: 20px;
   position: absolute;
   text-align: center;
 }
 header .logo img {
-  height: 50px;
+  height: 20px;
   margin-top: 10px;
 }
 header nav {
