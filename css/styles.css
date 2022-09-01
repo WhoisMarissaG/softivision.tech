@@ -106,8 +106,11 @@ body::-webkit-scrollbar {
   background-color: #154621;
   z-index: 1;
 }
-/*** RESPONSIVE ***/
-/* MOBILE */
+.layout .s5 {
+  background-color: #02486b;
+  z-index: 1;
+}
+
 @media screen and (max-width: 576px) {
   body::-webkit-scrollbar {
     width: 0px;
