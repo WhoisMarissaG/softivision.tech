@@ -232,11 +232,15 @@ header .inner {
 header .logo {
   display: block;
   height: 20px;
+  margin-left: -500px;
+  opacity: 0.5;
   position: absolute;
   text-align: center;
 }
 header .logo img {
   height: 20px;
+  margin-left: -500px;
+  opacity: 0.5;
   margin-top: 10px;
 }
 header nav {
