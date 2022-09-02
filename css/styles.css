@@ -311,6 +311,7 @@ main {
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
+  background-color: black;
   position: relative;
 }
 #slider canvas {
