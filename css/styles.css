@@ -187,12 +187,12 @@ table {
 }
 
 ::selection {
-  background-color: grey;
+  background-color: black;
   color: white;
 }
 
 ::-moz-selection {
-  background-color: grey;
+  background-color: black;
   color: white;
 }
 
