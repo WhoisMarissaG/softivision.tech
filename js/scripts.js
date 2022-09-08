@@ -126,7 +126,7 @@ const displacementSlider = function(opts) {
                     document.getElementById('pagination').querySelectorAll('.active')[0].className = '';
                     this.className = 'active';
 
-                    let slideId = parseInt( this.dataset.slide, 10 );
+                    let slideId = parseInt( this.dataset.slide, 12 );
 
                     mat.uniforms.nextImage.value = sliderImages[slideId];
                     mat.uniforms.nextImage.needsUpdate = true;
