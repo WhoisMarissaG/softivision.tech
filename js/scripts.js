@@ -87,7 +87,7 @@ const displacementSlider = function(opts) {
         1000
     );
 
-    camera.position.z = 0;
+    camera.position.z = 2;
 
     let mat = new THREE.ShaderMaterial({
         uniforms: {
