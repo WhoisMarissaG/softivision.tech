@@ -144,8 +144,8 @@ const displacementSlider = function(opts) {
 
                     let slideTitleEl = document.getElementById('slide-title');
                     let slideStatusEl = document.getElementById('slide-status');
-                    let nextSlideTitle = document.querySelectorAll(`[data-slide-title="${slideId}"]`)[-1].innerHTML;
-                    let nextSlideStatus = document.querySelectorAll(`[data-slide-status="${slideId}"]`)[-1].innerHTML;
+                    let nextSlideTitle = document.querySelectorAll(`[data-slide-title="${slideId}"]`)[1].innerHTML;
+                    let nextSlideStatus = document.querySelectorAll(`[data-slide-status="${slideId}"]`)[1].innerHTML;
 
                     TweenLite.fromTo( slideTitleEl, 0.5,
                         {
