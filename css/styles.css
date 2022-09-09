@@ -1,3 +1,13 @@
+@import "bourbon";
+
+$lgtBlue: #43bed6;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .inner {
   content: "";
   position: absolute;
