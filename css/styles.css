@@ -219,7 +219,6 @@
 	 top: 0;
 	 width: 30px;
 	 height: 2px;
-	 background: white;
 	 box-shadow: 0 12px 0 0 white, 0 6px 0 0 white;
 }
  @media screen and (min-width: 800px) {
