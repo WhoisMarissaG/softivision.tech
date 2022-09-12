@@ -138,11 +138,9 @@
 	 box-sizing: border-box;
 }
  ::selection {
-	 background-color: grey;
 	 color: white;
 }
  ::-moz-selection {
-	 background-color: grey;
 	 color: white;
 }
  html {
@@ -151,7 +149,7 @@
 	 -webkit-font-smoothing: antialiased;
 }
  body {
-	 background-color: #23272a;
+	 background-color: #000000;
 	 overflow: hidden;
 }
  header {
