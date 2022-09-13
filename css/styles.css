@@ -326,12 +326,12 @@
 	 font-size: 18px;
 	 color: white;
 }
- #slider-content #hyperlink-button {
-	 margin-top: 10px;
+ #slider-content #hyperlink-button #data-hyperlink-button{
+	 margin-top: 20px;
 	 font-family: 'acta-display', serif;
 	 font-weight: 200;
 	 font-size: 18px;
-	 color: white;
+	 color: red;
 }
  @media screen and (min-width: 800px) {
 	 #slider-content #slide-status {
