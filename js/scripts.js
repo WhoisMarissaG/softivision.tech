@@ -204,6 +204,7 @@ const displacementSlider = function(opts) {
                                 TweenLite.to( hyperlinkButtonEl, 0.5, {
                                     autoAlpha: 1,
                                     y: 0,
+                                    delay: 0.1,
                                 })
                             }
                         });
