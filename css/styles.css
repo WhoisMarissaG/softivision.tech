@@ -175,14 +175,14 @@
 }
  header .logo {
 	 display: block;
-	 height: 45px;
+	 height: 20px;
 	 position: absolute;
 	 top: 0;
 	 left: 0;
 	 text-align: center;
 }
  header .logo img {
-	 height: 45px;
+	 height: 20px;
 }
  header nav {
 	 display: none;
