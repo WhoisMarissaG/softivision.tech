@@ -144,8 +144,11 @@ const displacementSlider = function(opts) {
 
                     let slideTitleEl = document.getElementById('slide-title');
                     let slideStatusEl = document.getElementById('slide-status');
+                    let hyperlinkButtonEl = document.getElementById('hyperlink-button');
+                    
                     let nextSlideTitle = document.querySelectorAll(`[data-slide-title="${slideId}"]`)[0].innerHTML;
                     let nextSlideStatus = document.querySelectorAll(`[data-slide-status="${slideId}"]`)[0].innerHTML;
+                    let nextHyperlinkButton = document.querySelectorAll(`[data-hyperlink-button="${slideId}"]`)[0].innerHTML;
 
                     TweenLite.fromTo( slideTitleEl, 0.5,
                         {
@@ -182,6 +185,25 @@ const displacementSlider = function(opts) {
                                     autoAlpha: 1,
                                     y: 0,
                                     delay: 0.1,
+                                })
+                            }
+                        });
+                    
+                    TweenLite.fromTo( hyperlinkButtonEl, 0.5,
+                        {
+                            autoAlpha: 1,
+                            y: 0
+                        },
+                        {
+                            autoAlpha: 0,
+                            y: 20,
+                            ease: 'Expo.easeIn',
+                            onComplete: function () {
+                                hyperlinkButtonEl.innerHTML = nextHyperlinkButton;
+
+                                TweenLite.to( hyperlinkButtonEl, 0.5, {
+                                    autoAlpha: 1,
+                                    y: 0,
                                 })
                             }
                         });
