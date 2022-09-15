@@ -176,7 +176,7 @@
 }
  header .logo img {
 	 height: 20px;
-	 margin-left: 20px;
+	 margin-left: 0px;
 	 opacity: 0.5;
 }
  header nav {
