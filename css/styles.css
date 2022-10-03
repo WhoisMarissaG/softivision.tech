@@ -335,7 +335,7 @@ header .logo img {
 	 font-family: 'acta-display', serif;
 	 font-weight: 200;
 	 font-size: 18px;
-	 color: red;
+	 font-color: red;
 }
  @media screen and (min-width: 800px) {
 	 #slider-content #slide-status {
