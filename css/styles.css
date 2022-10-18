@@ -6,6 +6,7 @@ body{
 
 .container{
   clear:both;
+ display: inline;
   overflow:auto;
 }
 
@@ -14,7 +15,7 @@ nav{float:right;}
 .logo img{float:left;}
 
 ul li{
-  display: inline-block; padding:10px;
+display: inline;
   font-size:20px; font-family:raleway;
 }
 
