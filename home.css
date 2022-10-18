@@ -85,6 +85,11 @@
   object-fit: cover;
   margin-left: 77px;
 }
+
+.template{
+  background-image: url("/TemplatesBG.png");
+}
+
 .home-home-menu {
   flex: 0 0 auto;
   width: auto;
