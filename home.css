@@ -87,7 +87,7 @@
 }
 
 .template{
-  background-image: "/TemplatesBG.png";
+  background-image: url("/TemplatesBG.png");
 }
 
 .home-home-menu {
