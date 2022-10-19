@@ -94,6 +94,9 @@
   bottom:0px;
   left:0px;
   background-image: url("/softivision_assets/TemplatesBG.png");
+  
+  scroll-snap-align: start;
+  flex-flow: column nowrap;
 }
 
 .Software{
@@ -110,6 +113,9 @@
   bottom:0px;
   left:0px;
   background-image: url("/softivision_assets/SoftwareBG.png");
+  
+  scroll-snap-align: start;
+  flex-flow: column nowrap;
 }
 
 .Bored{
@@ -126,6 +132,9 @@
   bottom:0px;
   left:0px;
   background-image: url("/softivision_assets/BoredBG.png");
+  
+  scroll-snap-align: start;
+  flex-flow: column nowrap;
 }
 
 .AI{
@@ -142,6 +151,9 @@
   bottom:0px;
   left:0px;
   background-image: url("/softivision_assets/AIBG.png");
+  
+  scroll-snap-align: start;
+  flex-flow: column nowrap;
 }
 
 .home-home-menu {
