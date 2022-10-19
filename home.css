@@ -92,6 +92,11 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
   background-image: url("/softivision_assets/TemplatesBG.png");
 }
 
