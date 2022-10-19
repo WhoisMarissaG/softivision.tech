@@ -80,7 +80,7 @@
 }
 
 .Template{
-  display: block;
+  display: flex;
   align-items: flex-start;
   flex-direction: column;
   background-size: cover;
@@ -95,7 +95,7 @@
 }
 
 .Software{
-  display: block;
+  display: flex;
   align-items: flex-start;
   flex-direction: column;
   background-size: cover;
@@ -110,7 +110,7 @@
 }
 
 .Bored{
-  display: block;
+  display: flex;
   align-items: flex-start;
   flex-direction: column;
   background-size: cover;
@@ -125,7 +125,7 @@
 }
 
 .AI{
-  display: block;
+  display: flex;
   align-items: flex-start;
   flex-direction: column;
   background-size: cover;
