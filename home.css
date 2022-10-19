@@ -62,7 +62,7 @@
   width: 100%;
   display: flex;
   background-color: #000000;
-  position: relative;
+  position: fixed;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
