@@ -87,7 +87,12 @@
 }
 
 .Template{
-  background: url("/public/playground_assets/TemplatesBG.png");
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/softivision_assets/TemplatesBG.png");
 }
 
 .home-home-menu {
