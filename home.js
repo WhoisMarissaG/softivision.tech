@@ -1,34 +1,17 @@
-gsap.set("main article *", { autoAlpha: 0, y: "1rem" });
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
 
-const animateVisible = (block, ratio, isIntersecting) => {
-  if (ratio > 0 && isIntersecting) {
-    gsap.to(block.querySelectorAll("*"), {
-      duration: 1,
-      autoAlpha: 1,
-      y: "0",
-      stagger: 0.3,
-      ease: "power3.inOut" });
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
 
-  } else {
-    gsap.set(block.querySelectorAll("*"), {
-      autoAlpha: 0,
-      y: "1rem" });
-
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
   }
-};
-
-const blocks = document.querySelectorAll("main article");
-
-const blocksObserver = new IntersectionObserver(
-entries => {
-  return entries.forEach(event => {
-    const { target, intersectionRatio, isIntersecting } = event;
-    animateVisible(target, intersectionRatio, isIntersecting);
-  });
-},
-{ threshold: 0.5 });
-
-
-for (const block of blocks) {
-  blocksObserver.observe(block);
 }
+
+window.addEventListener("scroll", reveal);
