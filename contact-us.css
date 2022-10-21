@@ -38,7 +38,8 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: center;
+  align-items: flex-end;
+  max-height: 100vh;
   flex-direction: column;
   background-image: url("/softivision_assets/softivision-cu-bg.jpg");
 }
@@ -54,6 +55,55 @@
   justify-content: space-between;
   background-color: #101010;
   opacity: 0.9;
+}
+.contact-form-c{
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  height: 450px;
+  width: 400px;
+  padding-left: 30px;
+  padding-top: 5px;
+  color: white;
+  background-color: #101010;
+}
+.fcf-labelname{
+  
+}
+.fcf-labelemail{
+  
+}
+.fcf-labelmsg{
+  
+}
+.fcf-input-group-name{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.fcf-input-group-email{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.fcf-input-group-msg{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.contactus-header{
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 40px;
+  text-align: left;
+  font-family: Noto Serif Devanagari;
+  font-weight: 300;
+}
+.fcf-form-control{
+  background-color: #1c1c1c;
+  width: 340px;
 }
 .contact-us-contact-h-icon {
   width: 180px;
