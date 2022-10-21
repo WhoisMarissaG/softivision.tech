@@ -79,6 +79,26 @@
   margin-left: 77px;
 }
 
+#TemplatesI{
+  display: flex;
+  flex-direction: column;
+}
+
+#SoftwareI{
+  display: flex;
+  flex-direction: column;
+}
+
+#BoredI{
+  display: flex;
+  flex-direction: column;
+}
+
+#AII{
+  display: flex;
+  flex-direction: column;
+}
+
 .Templates{
   display: flex;
   flex-direction: column;
@@ -252,7 +272,7 @@
   font-size: 7em;
   align-self: flex-start;
   font-style: normal;
-  margin-top: 40px;
+  margin-top: 100px;
   text-align: left;
   font-family: Noto Serif Devanagari;
   font-weight: 300;
@@ -263,7 +283,7 @@
   font-size: 7em;
   align-self: flex-start;
   font-style: normal;
-  margin-top: 40px;
+  margin-top: 100px;
   text-align: left;
   font-family: Noto Serif Devanagari;
   font-weight: 300;
@@ -274,7 +294,7 @@
   font-size: 7em;
   align-self: flex-start;
   font-style: normal;
-  margin-top: 40px;
+  margin-top: 100px;
   text-align: left;
   font-family: Noto Serif Devanagari;
   font-weight: 300;
@@ -285,7 +305,7 @@
   font-size: 7em;
   align-self: flex-start;
   font-style: normal;
-  margin-top: 40px;
+  margin-top: 100px;
   text-align: left;
   font-family: Noto Serif Devanagari;
   font-weight: 300;
