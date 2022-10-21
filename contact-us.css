@@ -52,6 +52,8 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
+  background-color: #101010;
+  opacity: 0.9;
 }
 .contact-us-contact-h-icon {
   width: 180px;
