@@ -16,15 +16,6 @@
   letter-spacing: 2px;
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
 .contact-menu-links-root-class-name15 {
   margin-left: -650px;
 }
@@ -49,7 +40,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #101010;
+  background-image: url("/softivision_assets/softivision-cu-bg.jpg");
 }
 .contact-us-contact-header {
   width: 100%;
