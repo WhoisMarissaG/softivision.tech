@@ -31,8 +31,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
-    <!--This is the head section-->
-    <!-- <style> ... </style> -->
+ 
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -121,29 +120,38 @@
             </div>
           </div>
         </header>
-        <div class="contact-form-c">
-        <h3>CONTACT US</h3>
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="/email.php">
+        
+        <div style="width: 100%; height: 100vh;">
+
+          <div style="width: 50%; height: 500px; float:left;">
+            <div class="contact-form-c">
+            <h3>CONTACT US</h3>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="/email.php">
             <label for="Name" class="fcf-labelname">Your name</label>
             <div class="fcf-input-group">
                 <input type="text" id="Name" name="Name" class="fcf-form-control" required>
             </div>
-        <div class="fcf-form-group-name">
+            <div class="fcf-form-group-name">
             <label for="Email" class="fcf-labelemail">Your email address</label>
             <div class="fcf-input-group">
                 <input type="email" id="Email" name="Email" class="fcf-form-control" required>
             </div>
-        <div class="fcf-form-group">
+            <div class="fcf-form-group">
             <label for="Message" class="fcf-labelmsg">Your message</label>
             <div class="fcf-input-group-email">
                 <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
             </div>
-        </div>
-        <div class="fcf-form-group-msg">
+            </div>
+            <div class="fcf-form-group-msg">
             <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            </div>
+            </div>
+            </div>
+          </div>
+
+          <div style="width:50%; height: 500px; float:left;">
+          </div>
         </div>
-      </div>
-      </div>
     </div>
           <script
       data-section-id="header"
