@@ -102,8 +102,10 @@
   font-weight: 300;
 }
 .fcf-form-control{
-  background-color: #1c1c1c;
+  background-color: transparent;
   width: 340px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
 }
 .contact-us-contact-h-icon {
   width: 180px;
