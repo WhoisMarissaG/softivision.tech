@@ -170,6 +170,26 @@
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
+div
+{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width:30%;
+}
+.contact_one
+{
+    background-color:limegreen;    
+    float: left;  
+}
+.contact_two
+{
+    background-color:orange;
+    float: left;
+}
 .contact-us-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
